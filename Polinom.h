@@ -46,6 +46,8 @@ public:
     //!empty constructor
     Polinom();
     //!constructor that take power of polinom and vector of coefficients of this polinom
+    //power - количество цифер - 1
+    //keys - все цифры
     Polinom(int _power, std::vector<int> keys);
     ~Polinom();
 

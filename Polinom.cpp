@@ -22,7 +22,7 @@ Polinom::Polinom(int _power, std::vector<int> keys) {
     power = _power;
     head = makeItem(keys[0]);
 
-    for (int i = 1; i < keys.size(); i++) {
+    for ( size_t i = 1; i < keys.size(); i++) {
         appendItem(head, makeItem(keys[i]));
     }
 }
@@ -42,7 +42,7 @@ void Polinom::appendItem(Polinom::PElement *head, Polinom::PElement *el) {
 
 void Polinom::printPol() {
     PElement *tmp = this->head;
-    int i = 0, firstElIs0;
+    int i = 0;
     while (tmp != nullptr) {
         //firstElIs0 = tmp->key;
         if (tmp->key == 0) {
