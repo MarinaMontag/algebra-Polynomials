@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Sample-Test1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Polynom.cpp
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(45,25): warning C4018: '<': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(128,23): warning C4018: '<': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(258,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(342,25): warning C4018: '<=': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(344,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(365,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(377,25): warning C4018: '<': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(447,23): warning C4018: '<': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(516,25): warning C4018: '<=': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(519,20): warning C4018: '<=': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(519,45): warning C4018: '<=': signed/unsigned mismatch
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(538,29): warning C4018: '<=': signed/unsigned mismatch
+  test.cpp
+  Generating Code...
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(92): warning C4715: 'Polynom::modDivision': not all control paths return a value
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(692): warning C4172: returning address of local variable or temporary
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(693): warning C4172: returning address of local variable or temporary
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(708): warning C4172: returning address of local variable or temporary
+E:\2 курс\2 семестр\Загальна алгебра\Polynom.cpp(709): warning C4172: returning address of local variable or temporary
+  Sample-Test1.vcxproj -> E:\2 курс\2 семестр\Tests\Debug\google_tests.exe
